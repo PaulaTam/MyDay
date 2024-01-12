@@ -1,0 +1,33 @@
+.map-page-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-container{
+    height: 80vh;
+    margin: 10px;
+}
+
+
+.map-data-grid-container{
+    margin-top: 30px;
+    text-align: left;
+}
+
+.map-data{
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 50px;
+    background-color: #FFDE86;
+    text-align: center;
+}
+
+.map-data-grid-column{
+    display: flex;
+}
+
+.map-data-grid-row{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*FFDE86*/

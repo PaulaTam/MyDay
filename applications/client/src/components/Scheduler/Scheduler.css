@@ -1,0 +1,163 @@
+.schedule-container{
+    margin:50px;
+}
+
+#label_Location {
+    padding-top: -100px;
+}
+
+#loc-disabled-inputbox-id{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: -11.3px;
+    margin-bottom: 0px;
+}
+
+.map-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 35px;
+    background-color: #F2C740;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.map-link {
+    text-decoration: none;
+    color: black;
+}
+
+.map-link:hover{
+    color: white;
+}
+
+.suggestion-containter{
+    text-align: left;
+}
+
+.suggestion-btn{
+    height: 35px;
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: #F2C740;
+    border-radius: 5px;
+}
+
+.suggestion-btn:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .suggestion-btn{
+        font-size: 12px;
+        width: 100px;
+    }
+
+}
+
+.scheduler-btns-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.pref-title {
+  font-size: 18px;
+  color: #D0A5F6;
+}
+
+.pref-window-bg{
+  background-color: #F2C740;
+}
+
+.relative-dropdown{
+  padding-left: 20px;
+}
+
+
+/* dropdown checklist for tags*/
+  .tags-dropdown {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  
+  .tags-dropdown .anchor {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .tags-dropdown .anchor:after {
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 5px;
+    right: 10px;
+    top: 20%;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  
+  .tags-dropdown .anchor:active:after {
+    right: 8px;
+    top: 21%;
+  }
+  
+  .tags-dropdown ul.tag-items {
+    padding: 2px;
+    display: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .tags-dropdown ul.tag-items li {
+    list-style: none;
+  }
+  
+  .tags-dropdown.visible .anchor {
+    color: #0094ff;
+  }
+  
+  .tags-dropdown.visible .tag-items {
+    display: block;
+  }
+  
+  .current {
+    margin-left: 20px;
+  }
+
+  .pref-button {
+    margin: 10px;
+  }
+
+/*react scheduler css override*/
+
+.e-treeview .e-ul {
+    padding: 0;
+}
+
+.e-treeview .e-text-content, .e-treeview .e-fullrow{
+    padding: 0;
+    background-color: #D0A5F6;
+    border-radius: 10px;
+    width: 125px;
+    text-align: center;
+}
+
+.e-schedule .e-vertical-view .e-date-header-wrap table tbody td.e-header-cells {
+    background-color: #D0A5F6;
+}
+
+.e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos {
+    background-color: #F2C740;
+}

@@ -1,0 +1,44 @@
+/*Making a Layout.css to not interfere with the App.css,
+may be tranferring all code here to App.css in the future.*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #FEC6FF, #C3C9E9);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.layout-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.btn-custom {
+    background-color: #5B419A;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #8A4FFF;
+}
+
+.form-container{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,20 @@
+.btn-custom {
+    background-color: #5B419A;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    padding: 5px;
+    gap: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #8A4FFF;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,1 @@
+export { DefaultHome } from './DefaultHome';

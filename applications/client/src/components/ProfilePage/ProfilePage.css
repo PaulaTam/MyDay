@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(45deg, #D0A5F6, #C3C9E9);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.profile-page-container {
+    background-color: white;
+    /* border-radius: 5px; */
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.profile-page-row {
+    border-radius: 1px;
+    padding: 20px;
+    background-color: #FFDE86;
+}
+
+
+.profile-page-row {
+    border-radius: 1px;
+    padding: 20px;
+    background-color: #FFDE86;
+}
